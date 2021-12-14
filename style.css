@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #4E5BEE;
+    --error-color: #FF5757;
+    --primary-color: #F8F8F8;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: var(--primary-color);
+
+    height: 100%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+
+    background-color: var(--primary-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 600px;
+    height: 657px;
+
+    background-color: var(--bg-color);
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 0 30%;
+}
+
+.input input{
+    position: relative;
+    height: 2.5em;
+    width: 20em;
+    
+    margin: 3px 0px;
+    padding-left: 30px;
+    
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+
+    color: var(--primary-color);
+}
+
+.input label{
+    position: absolute;
+
+    margin-top: 12px;
+    margin-left: 11px;
+}
+
+button{
+    position: relative;
+    margin-top: 15px;
+    
+    height: 2.5em;
+    width: 20em;
+    
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    outline: none;
+
+    background-color: var(--primary-color);
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+form img{
+    height: 150px;
+    width: 150px;
+
+    margin-bottom: 30px;
+}
+
+aside img{
+    position: absolute;
+    width: 1010px;
+    height: 657px;
+    left: 338px;
+}
