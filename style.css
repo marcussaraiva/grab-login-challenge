@@ -49,6 +49,11 @@ main{
     margin-bottom: 30%;
 }
 
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
 .input input{
     height: 50px;
     width: 100vw;
@@ -79,6 +84,12 @@ main{
     width: 20px;
     height: 20px;
     margin: 8px 0 0 7px;
+}
+
+.error{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 20px;
 }
 
 button{
